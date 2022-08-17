@@ -20,6 +20,8 @@ programa
 			escreva("\n\nPor fazer mais de R$ 500,00 em compras, você vai receber (10%) R$ " + desc + " de desconto.\n O valor a ser pago é de R$ " + nvalor + "! Volte Sempre! ")
 		}se(valor <= 500){
 		     escreva("Você comprou R$ " + valor + " em compras. Obrigado")	
+		}senao{
+			escreva("erro")
 		}
 	}
 	
@@ -29,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 214; 
+ * @POSICAO-CURSOR = 685; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

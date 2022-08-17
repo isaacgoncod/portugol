@@ -3,18 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro ano
-		
-		escreva("{ EXERCÍCIO 017 - Ano Bissexto }")
-		escreva("\n Digíte um ano qualquer : ")
-		leia(ano)
 
-		se(ano % 4 == 0 e ano % 100 != 0 ou ano % 400==0){
-			escreva("\nO ano " + ano + " É BISSEXTO!")
+		inteiro num1, num2
+	
+		escreva("Digíte um número : ")
+		leia(num1)
+		escreva("Digíte outro número : ")
+		leia(num2)
+
+		
+		se(num1 > num2){
+			escreva("\nEm ordem crescente é " + num2 + " e " + num1 )
+		}senao se(num2 > num1){
+			escreva("\nEm ordem crescente é " + num1 + " e " + num2 )
 		}senao{
-			escreva("\nO ano " + ano + " NÃO É BISSEXTO!")
+			escreva("\nOs números são iguais" )
 		}
-		escreva("\nObrigado.")
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 201; 
+ * @POSICAO-CURSOR = 294; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
