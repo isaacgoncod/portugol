@@ -3,7 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+
+		inteiro num
+		
+		escreva("Sua contagem regressiva vai começar em : ")
+		leia(num)
+
+		enquanto(){
+			
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 16; 
+ * @POSICAO-CURSOR = 131; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

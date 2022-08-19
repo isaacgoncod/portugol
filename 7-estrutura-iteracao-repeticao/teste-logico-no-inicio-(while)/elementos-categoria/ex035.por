@@ -1,24 +1,9 @@
 programa
 {
-	inclua biblioteca Util --> u
+	
 	funcao inicio()
 	{
-
-		inteiro num1, num2, inc
-		
-		escreva("Onde começa a contagem ? : ")
-		leia(num1)
-		escreva("\nOnde termina a contagem ? : ")
-		leia(num2)
-		escreva("\nQual vai ser o incremento ? : ") 
-		leia(inc)
-		
-		enquanto(num1 <= num2){
-			escreva(" - ", num1)
-			num1 += inc
-			
-		}
-		escreva(" FIM!")
+		escreva("Olá Mundo")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +11,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 317; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
